@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/online-store-on-react-js/static/css/main.82764d5d.css",
+    "main.js": "/online-store-on-react-js/static/js/main.75c1ef75.js",
+    "static/media/1.jpg": "/online-store-on-react-js/static/media/1.e9832323d1d442ecbc8f.jpg",
+    "index.html": "/online-store-on-react-js/index.html",
+    "main.82764d5d.css.map": "/online-store-on-react-js/static/css/main.82764d5d.css.map",
+    "main.75c1ef75.js.map": "/online-store-on-react-js/static/js/main.75c1ef75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82764d5d.css",
+    "static/js/main.75c1ef75.js"
+  ]
+}
