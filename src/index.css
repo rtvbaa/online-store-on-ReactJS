@@ -22,6 +22,22 @@ header .logo {
     font-size: 20px;
 }
 
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+
+header ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+header ul.nav li:hover {
+    opacity: 0.5;
+}
+
 header .presentation {
     margin: 50px 0;
     background: url('./img/1.jpg') no-repeat;
@@ -31,4 +47,32 @@ header .presentation {
     background-position: center center;
     background-blend-mode: multiply;
     background-color: #bcbcbc;
+    position: relative;
+}
+
+header .presentation::after{
+    content: 'Лучшие товары для вашего дома';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+header .presentation::before{
+    content: 'По низким ценам';
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
 }
